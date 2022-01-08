@@ -46,7 +46,7 @@ function checkColor(that){
                 let time = (new Date()) - startTime;
                 time /= 1000;
                 youWinText.style.display= 'block';
-                youWinText.innerHTML += " It took you " + time +'seconds';
+                youWinText.innerHTML += " It took you " + time +' seconds';
             }
         }
     }
