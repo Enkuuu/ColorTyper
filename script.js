@@ -1,5 +1,5 @@
 let wordsContainer = document.querySelector('#words');
-let YouWinText = document.querySelector('#YouWin');
+let youWinText = document.querySelector('#youWin');
 
 let words = [
     {word: "red", color:"blue"},
@@ -45,8 +45,8 @@ function checkColor(that){
             if(wordsCounter >= words.length){
                 let time = (new Date()) - startTime;
                 time /= 1000;
-                YouWinText.style.display= 'block';
-                YouWinText.innerHTML += " It took you " + time +'seconds';
+                youWinText.style.display= 'block';
+                youWinText.innerHTML += " It took you " + time +'seconds';
             }
         }
     }
