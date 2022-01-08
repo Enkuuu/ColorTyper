@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Typer</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1> Type the color</h1>
+    <p>Instructions: type start to begin the game, when it begins, type every color as fast as you can and press enter after every color.</p>
+    
+    <div id="words">&nbsp;</div>
+
+    <input type="text" onchange='checkColor(this)' autocomplete="off">
+    
+    <h1 id="youWin">You won!</h1>
+    <script src="script.js"></script>
+</body>
+</html>

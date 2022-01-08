@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#words {
+    margin: 30px 0;
+}
+#words span{
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+#YouWin{
+    display: inline;
+}
